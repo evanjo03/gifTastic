@@ -1,0 +1,33 @@
+.jumbotron {
+    background: 	#428bca;
+    border-bottom: 30px solid black;
+    color: white;
+}
+
+.imageContainer {
+    display: inline-block;
+}
+.caption {
+    text-align: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.imageContainer {
+    width: 80%;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.imageContainer {
+    width: 45%;
+}
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.imageContainer {
+    width: 30%;
+}
+} 
